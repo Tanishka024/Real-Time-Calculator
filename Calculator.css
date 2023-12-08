@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+    background-image:url("https://th.bing.com/th/id/R.78b0bfde77bb81a0a1acb397302d494c?rik=BaI%2f%2bC0iBLCO9g&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f25%2f251398-pattern.jpg&ehk=FNK%2b3bizJsSs1TNfnDaWCDrymJ%2bZZx5iIuPhLvY7gm4%3d&risl=&pid=ImgRaw&r=0");
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    border: 6px solid rgb(65, 117, 148);
+    outline: 5px solid rgb(192, 192, 55);
+    outline-offset: -12px;
+    border-radius: 6px; 
+ }
+ .main input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 9px;
+    text-align: right;
+    padding: 3px 6px;
+    font-size: 40px;
+    border: 5px solid rgb(51, 5, 5);
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: rgb(35, 17, 3);
+ }
+ .btn input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: rgb(236, 167, 98);
+    border-radius: 6px;
+    color: rgb(100, 39, 39);
+ }
+ .btn input[type='button']:hover{
+    background-color: rgb(235, 163, 163);
+    color: rgb(146, 74, 74);
+ }
